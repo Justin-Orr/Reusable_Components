@@ -10,8 +10,29 @@ body {
 #carousel-nav-container {
   position: absolute;
   width: 100px;
-  height: 20px;
-  top: 510px;
+  height: 24px;
+  top: 455px;
+  display: flex;
+}
+
+#carousel-nav-container label {
+  margin: 5px;
+}
+
+.manual-btn {
+  border: 2px solid #d04500;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.manual-btn:hover {
+  background-color: #d04500;
+}
+
+input[type="radio"] {
+  display: none;
 }
 
 .background {

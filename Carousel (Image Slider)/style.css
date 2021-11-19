@@ -1,7 +1,5 @@
 body {
   padding: 10px;
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
 #carousel {
@@ -18,7 +16,7 @@ body {
 
 .background {
   background-color: black;
-  width: 720px; /*1024*/
+  width: 720px;
   height: 484px;
   border: 2px solid black;
   border-radius: 10px;
@@ -40,25 +38,4 @@ body {
   border: 2px solid transparent;
   border-radius: 10px;
   border-color: white;
-  /* content: url("instagram_profile_image.png") */
-}
-
-#radio1:checked ~ div div div#first.slide {
-  margin-left: 0;
-  border-color: blue;
-}
-
-#radio2:checked ~ div div div#first {
-  margin-left: -100%;
-  border-color: red;
-}
-
-#radio3:checked ~ div div div#first {
-  margin-left: -200%;
-  border-color: green;
-}
-
-#radio4:checked ~ div div div#first {
-  margin-left: -300%;
-  border-color: purple;
 }

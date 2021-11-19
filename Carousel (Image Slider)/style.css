@@ -1,0 +1,64 @@
+body {
+  padding: 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+#carousel {
+  display: flex;
+  justify-content: center;
+}
+
+#carousel-nav-container {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 510px;
+}
+
+.background {
+  background-color: black;
+  width: 720px; /*1024*/
+  height: 484px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  width: 1024px;
+  height: 768px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.slide img {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  border-color: white;
+  /* content: url("instagram_profile_image.png") */
+}
+
+#radio1:checked ~ div div div#first.slide {
+  margin-left: 0;
+  border-color: blue;
+}
+
+#radio2:checked ~ div div div#first {
+  margin-left: -100%;
+  border-color: red;
+}
+
+#radio3:checked ~ div div div#first {
+  margin-left: -200%;
+  border-color: green;
+}
+
+#radio4:checked ~ div div div#first {
+  margin-left: -300%;
+  border-color: purple;
+}

@@ -53,13 +53,6 @@ input[type="radio"] {
   transition: background-image 1s;
 }
 
-/* .slide {
-  width: 720px;
-  height: 484px;
-  border: 2px solid transparent;
-  border-radius: 10px;
-} */
-
 .slide img {
   border-color: white;
   width: 720px;

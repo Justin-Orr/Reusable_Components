@@ -1,5 +1,6 @@
 body {
   padding: 10px;
+  background-color: azure;
 }
 
 #carousel {
@@ -19,6 +20,10 @@ body {
   margin: 5px;
 }
 
+#rl1 {
+  background-color: #d04500;
+}
+
 .manual-btn {
   border: 2px solid #d04500;
   cursor: pointer;
@@ -35,28 +40,28 @@ input[type="radio"] {
   display: none;
 }
 
-.background {
-  background-color: black;
-  width: 720px;
-  height: 484px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
 .content {
   display: flex;
   overflow: hidden;
 }
 
-.slide {
-  width: 1024px;
-  height: 768px;
-  border: 2px solid transparent;
-  border-radius: 10px;
+#carousel_image {
+  width: 720px;
+  height: 484px;
+  background-image: url("image-bike-repair-service-b.jpg");
+  background-size:cover;
+  transition: background-image 1s;
 }
 
-.slide img {
+/* .slide {
+  width: 720px;
+  height: 484px;
   border: 2px solid transparent;
   border-radius: 10px;
+} */
+
+.slide img {
   border-color: white;
+  width: 720px;
+  height: 484px;
 }
